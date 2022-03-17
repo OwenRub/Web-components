@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Nunito Sans', sans-serif;
+}
+.search-container{
+	width: 350px;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #C8102E;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h1{
+	color: white;
+	text-align: center;
+	margin-top: 60px;
+}
+#search{
+	margin-top: 60px;
+	background: white;
+	border: none;
+	padding: 8px;
+	font-size: 16px;
+	width: 260px;
+}
+#search:focus{
+	outline-style: solid;
+	outline-color: #00B2A9;
+	outline-width: 2px;
+}
+.list-container{
+	margin: 0 100px 0 450px;
+}
+#list{
+	margin: 40px 0 0 40px;
+}
+#list li{
+	padding: 30px 0 30px 20px;
+	border-bottom: 1px solid black;
+}
+a{
+	color: #00B2A9;
+}
