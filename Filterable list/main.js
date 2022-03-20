@@ -2,6 +2,9 @@ const listItems = document.getElementsByTagName('li');
 
 const inputElement = document.getElementById('search');
 inputElement.addEventListener('keyup', filterList);
+document.addEventListener('DOMContentLoaded', () => {
+	inputElement.focus();
+})
 
 function filterList(e){
 	const filteredList = [];
