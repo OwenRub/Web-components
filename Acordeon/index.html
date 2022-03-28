@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<title>Acordeon</title>
+</head>
+<body>
+	<div class="container">
+		<div class="acordeon">
+			<div class="header">
+				Event Loop
+			</div>
+			<div class="content">
+				<p>The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading. Let’s take a look at what happens on the back-end.</p>
+			</div>
+		</div>
+		<div class="acordeon">
+			<div class="header">
+				Call Stack
+			</div>
+			<div class="content">
+				<p>The call stack is responsible for keeping track of all the operations in line to be executed. Whenever a function is finished, it is popped from the stack.</p>
+			</div>
+		</div>
+		<div class="acordeon">
+			<div class="header">
+				Asynchronous Programming
+			</div>
+			<div class="content">
+				<p>In a synchronous programming model, things happen one at a time. When you call a function that performs a long-running action, it returns only when the action has finished and it can return the result. This stops your program for the time the action takes.</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
