@@ -4,6 +4,3 @@
 
 1. [Modal window](https://owenrub.github.io/Web-components/Modal%20window/)
 2. [Filterable list](https://owenrub.github.io/Web-components/Filterable%20list/)
-3. [Acordeon](https://owenrub.github.io/Web-components/Acordeon)
-
-
