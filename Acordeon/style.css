@@ -37,9 +37,7 @@ body{
 	top: 50%; right: 20px;
 	transform: translateY(-50%);
 }
-.active .header::after{
-	content: '-';
-}
+
 .acordeon .header:hover{
 	cursor: pointer;
 }
