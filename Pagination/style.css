@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+	background: #0CBABA;
+	height: 100vh;
+	width: 100%;
+}
+#quotes-container{
+	background-color: white;
+	width: 90%;
+	height: 500px;
+	max-width: 700px;
+	margin: auto;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	padding: 25px;
+	border-radius: 10px;
+}
+#quotes q{
+	font-style: italic;
+	color: #BA0C0C;
+}
+#quotes blockquote{
+	margin: 6px 0 28px 20px;
+	color: gray;
+}
+#indices{
+	width: fit-content;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0; left: 50%;
+	transform: translateX(-50%) translateY(-100%);
+}
+#indices p{
+	display: inline;
+	cursor: pointer;
+	padding: 5px;
+	border: 1px solid #0CBABA;
+}
+#indices p:nth-child(2n){
+	background-color: #0CBABA;
+}
