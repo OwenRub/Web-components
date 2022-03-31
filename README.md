@@ -7,3 +7,4 @@
 3. [Acordeon](https://owenrub.github.io/Web-components/Acordeon/)
 4. [Slider](https://owenrub.github.io/Web-components/Slider/)
 5. [Tooltip](https://owenrub.github.io/Web-components/Tooltip/)
+6. [Pagination](https://owenrub.github.io/Web-components/Pagination/)
