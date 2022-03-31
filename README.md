@@ -6,3 +6,4 @@
 2. [Filterable list](https://owenrub.github.io/Web-components/Filterable%20list/)
 3. [Acordeon](https://owenrub.github.io/Web-components/Acordeon/)
 4. [Slider](https://owenrub.github.io/Web-components/Slider/)
+5. [Tooltip](https://owenrub.github.io/Web-components/Tooltip/)
