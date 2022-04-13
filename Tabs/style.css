@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body{
+  background-color: #affae1;
+}
+.section-center{
+  width: 720px;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title{
+  text-align: center;
+  padding: 15px 10px;
+}
+.title *{
+  margin-bottom: 8px;
+}
+.content-img{
+  object-fit: cover;
+  align-self: center;
+}
+.content-img img{
+  width: 100%;
+  border-radius: 10px;
+}
+.content-tabs{
+  border-radius: 10px;
+  background-color: white;
+}
+.tabs-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.tabs-container .tab-btn{
+  padding: 10px 0;
+  border: none;
+  background-color: #cccccc;
+  font-size: 15px;
+  cursor: pointer;
+}
+.tabs-container .tab-btn:first-child{
+  border-radius: 10px 0 0 0;
+}
+.tabs-container .tab-btn:last-child{
+  border-radius: 0 10px 0 0;
+}
+.tab-btn:hover{
+  background-color: #d4d4d4;
+}
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.description{
+  display: none;
+  padding: 3px 8px;
+}
+.description p{
+  text-align: justify;
+}
+.description.active{
+  display: block;
+}
+.tab-btn.active{
+  background-color: #e3e3e3;
+}
