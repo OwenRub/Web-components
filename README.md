@@ -9,3 +9,4 @@
 5. [Tooltip](https://owenrub.github.io/Web-components/Tooltip/)
 6. [Pagination](https://owenrub.github.io/Web-components/Pagination/)
 7. [Responsive navbar](https://owenrub.github.io/Web-components/Responsive%20navbar/)
+8. [Tabs](https://owenrub.github.io/Web-components/Tabs/)
